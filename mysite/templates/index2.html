@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>templates</title>
+</head>
+<body>
+    <h1>Write your text here</h1>
+    <form action='/analyze' method="get">
+        <textarea name = 'text' style='width: 1247px; height: 174px;'></textarea>
+        <input type = 'checkbox' name ='removepunc'> Remove punctuation <br>
+        <input type = 'checkbox' name ='allcap'> Capitalize <br>
+        <input type = 'checkbox' name ='removenew'> remove new line <br>
+        <input type = 'checkbox' name ='removespace'> remove space<br>
+        <button type="submit"> Analyse text</button>
+    </form>
+</body>
+</html>
